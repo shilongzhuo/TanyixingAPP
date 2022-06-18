@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fadingEdge="vertical"
+    android:scrollbars="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/picture2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="用户名"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:gravity="center"
+                android:text="个人碳积分"
+                android:textSize="30dp" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            >
+
+            <ImageView
+                android:layout_width="69dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:src="@drawable/gerenxinxi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="个人信息"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:layout_marginLeft="340dp"
+                android:src="@drawable/next" />
+            <ImageView
+                android:layout_width="69dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/tanpaifangliang"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="100dp"
+                android:text="碳排放量"
+                android:gravity="center"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/next" />
+            <ImageView
+                android:layout_width="69dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:layout_marginTop="200dp"
+                android:src="@drawable/jifenmingxi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="200dp"
+                android:gravity="center"
+                android:text="积分明细"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="200dp"
+                android:src="@drawable/next" />
+            <ImageView
+                android:layout_width="69dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:layout_marginTop="300dp"
+                android:src="@drawable/jifenshangpin"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="300dp"
+                android:gravity="center"
+                android:text="积分商品"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:layout_marginLeft="340dp"
+                android:layout_marginTop="300dp"
+                android:src="@drawable/next" />
+            <ImageView
+                android:layout_width="69dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:layout_marginTop="400dp"
+                android:src="@drawable/duihuandeshangpin"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="400dp"
+                android:gravity="center"
+                android:text="兑换的商品"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="340dp"
+                android:gravity="center"
+                android:layout_marginTop="400dp"
+                android:src="@drawable/next" />
+
+            <ImageView
+                android:layout_width="69dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="500dp"
+                android:gravity="center"
+                android:src="@drawable/tuichudenglu"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="500dp"
+                android:gravity="center"
+                android:text="退出登录"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="340dp"
+                android:gravity="center"
+                android:layout_marginTop="500dp"
+                android:src="@drawable/next" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

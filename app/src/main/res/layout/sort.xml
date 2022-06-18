@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdge="vertical"
+    android:scrollbars="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/sort"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="排行榜"
+                android:textColor="#E30808"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:gravity="center"
+                android:text="个人排行"
+                android:textColor="#F4F004"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp">
+
+            <ImageView
+                android:layout_width="69dp"
+                android:layout_height="65dp"
+                android:gravity="center"
+                android:src="@drawable/one" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="XXX"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="碳积分"
+                android:textSize="25dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="27dp"
+                android:text="35.8"
+                android:textSize="22dp"/>
+
+
+            <ImageView
+                android:layout_width="69dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="100dp"
+                android:gravity="center"
+                android:src="@drawable/two"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="100dp"
+                android:gravity="center"
+                android:text="XXX"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="100dp"
+                android:gravity="center"
+                android:text="碳积分"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="117dp"
+                android:text="33.2"
+                android:textSize="25dp"/>
+
+            <ImageView
+                android:layout_width="69dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="200dp"
+                android:gravity="center"
+                android:src="@drawable/three"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="200dp"
+                android:gravity="center"
+                android:text="XXX"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="200dp"
+                android:gravity="center"
+                android:text="碳积分"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="212dp"
+                android:text="30.8"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="69dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="300dp"
+                android:gravity="center"
+                android:text="4"
+                android:textSize="29dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="300dp"
+                android:gravity="center"
+                android:text="XXX"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="300dp"
+                android:gravity="center"
+                android:text="碳积分"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="315dp"
+                android:text="24.5"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="69dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="400dp"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="29dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="400dp"
+                android:gravity="center"
+                android:text="XXX"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="400dp"
+                android:gravity="center"
+                android:text="碳积分"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="415dp"
+                android:text="20.5"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="69dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="500dp"
+                android:gravity="center"
+                android:text="6"
+                android:textSize="29dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="500dp"
+                android:gravity="center"
+                android:text="XXX"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="500dp"
+                android:gravity="center"
+                android:text="碳积分"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="515dp"
+                android:text="19.4"
+                android:textSize="25dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

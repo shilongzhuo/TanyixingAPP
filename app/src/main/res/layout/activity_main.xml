@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity"
+android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="@drawable/picture1"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="登录碳易行，体验更多功能"
+    android:textSize="30dp"
+    android:gravity="center"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:layout_marginTop="50dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/phone_logal"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/wechat"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="220dp"
+        android:src="@drawable/qq_logal"></ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="320dp"
+        android:src="@drawable/weibo_logal"></ImageView>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="150dp"
+        android:text=' 登录代表您已同意《"碳易行"隐私协议》'
+        android:textColorLink="#9C27B0"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#3BCF20"/>
+
+</RelativeLayout>
+
+</LinearLayout>
+
